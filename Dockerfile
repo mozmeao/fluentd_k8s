@@ -44,8 +44,8 @@ ENV FLUENTD_OPT=""
 ENV FLUENTD_CONF="fluent.conf"
 
 # you must specify these when starting Docker!
-ENV PAPERTRAIL_HOST=""
-ENV PAPERTRAIL_PORT=""
+ENV SYSLOG_HOST=""
+ENV SYSLOG_PORT=""
 
 EXPOSE 24224 5140
 
